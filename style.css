@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'figtree';
-  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf), format('truetype');
+  font-family: 'Figtree', sans-serif;
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf), format('ttf');
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf), format('ttf');
 }
 
 *, *::before, *::after {
@@ -19,6 +20,8 @@
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
+    font-family: 'figtree', sans-serif;
+    background-color: var(--Yellow);
   }
   
   /* 5. Improve media defaults */
@@ -57,4 +60,11 @@
     --White: hsl(0, 0%, 100%);
     --Gray500: hsl(0, 0%, 42%);
     --Gray950: hsl(0, 0%, 7%);
+  }
+
+  /* ******************************MAIN STYLING********************************** */
+  main {
+    background-color: var(--White);
+    margin: 0 auto;
+    width: 95%;
   }
