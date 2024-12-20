@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/rebornay/Blog-preview-card)
+- Live Site URL: [Live Site URL ](https://rebornay.github.io/Blog-preview-card/)
 
 ## My process
 
@@ -46,8 +46,8 @@ Users should be able to:
 
 ### What I learned
 
-The first value in the box-shadow property is for the horizontal shadow length
-The second value in the box-shadow property is for the vertical shadow length
-The third value in the box-shadow property is for the blur radius
+The first value in the box-shadow property is for the horizontal shadow length.
+The second value in the box-shadow property is for the vertical shadow length.
+The third value in the box-shadow property is for the blur radius.
 The fourth value in the box-shadow property is for the spread radius
 
