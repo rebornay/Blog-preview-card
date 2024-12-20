@@ -73,8 +73,8 @@
     border: 1.5px solid black;
     border-radius: 20px;
     box-shadow: 8px 8px 0px 1px rgba(0,0,0,1);
-    -webkit-box-shadow: 8px 8px 1px 1px rgba(0,0,0,1);
-    -moz-box-shadow: 8px 8px 1px 1px rgba(0,0,0,1);
+    /* -webkit-box-shadow: 8px 8px 1px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 8px 8px 1px 1px rgba(0,0,0,1); */
   }
 /* ******************************HEADER STYLING********************************** */
   header .svg-background {
@@ -137,4 +137,13 @@
   .textbox .img-p p {
     font-weight: 700;
     color: var(--Gray950);
+  }
+
+  /* ******************************MEDIA QUERIES********************************** */
+
+  @media (min-width:1200px) and (max-width:1440px) {
+    main {
+      width: 35%;
+      margin-block: 1.5rem;
+    }
   }
